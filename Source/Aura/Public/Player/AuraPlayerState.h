@@ -25,7 +25,7 @@ public:
 	
 protected:
 	
-	UPROPERTY()
+	UPROPERTY(VisibleDefaultsOnly)
 	TObjectPtr<UAuraAbilitySystemComponent> AbilitySystemComponent;
 
 	UPROPERTY()
