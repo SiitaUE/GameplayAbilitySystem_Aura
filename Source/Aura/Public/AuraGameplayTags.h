@@ -8,7 +8,7 @@
 /**
  * AuraGameplayTags
  *
- * Singleton conaining native Gameplay Tags
+ * Singleton containing native Gameplay Tags
  */
 
 struct FAuraGameplayTags
@@ -41,6 +41,8 @@ public:
 	FGameplayTag InputTag_4;
 
 	FGameplayTag Damage;
+
+	FGameplayTag Effect_HitReact;
 
 private:
 	static FAuraGameplayTags GameplayTags;
