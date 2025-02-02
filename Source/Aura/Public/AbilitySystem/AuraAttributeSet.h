@@ -147,7 +147,7 @@ public:
 	ATTRIBUTE_ACCESSORS(UAuraAttributeSet, Mana);
 
 	/*
-	 * Meto Attributes
+	 * Meta Attributes
 	 */
 
 	UPROPERTY(BlueprintReadOnly, Category = "Meta Attributes")
@@ -206,4 +206,6 @@ public:
 
 private:
 	void SetEffectProperties(const FGameplayEffectModCallbackData& Data, FEffectProperties& Props) const;
+
+	void ShowFloatingText(const FEffectProperties& Props, float Damage) const;
 };
