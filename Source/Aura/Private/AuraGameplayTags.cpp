@@ -113,9 +113,13 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.DamageTypes.Add(GameplayTags.Damage_Fire);
 
 	/*
-	 * Combat
+	 * Combat Abilities
 	 */
 	GameplayTags.Effect_HitReact = UGameplayTagsManager::Get().AddNativeGameplayTag(
 			FName("Effect.HitReact"),
 			FString("HitReact"));
+
+	GameplayTags.Abilities_Attack = UGameplayTagsManager::Get().AddNativeGameplayTag(
+			FName("Abilities.Attack"),
+			FString("Attack Ability Tag"));
 }

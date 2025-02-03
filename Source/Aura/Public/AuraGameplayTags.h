@@ -43,6 +43,8 @@ public:
 	FGameplayTag Damage;
 	FGameplayTag Damage_Fire;
 
+	FGameplayTag Abilities_Attack;
+
 	TArray<FGameplayTag> DamageTypes;
 
 	FGameplayTag Effect_HitReact;
